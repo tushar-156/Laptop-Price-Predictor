@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("model/model.pkl")
+model = joblib.load("model.pkl")
 
 # ----------------------------
 # 🧪 SAMPLE INPUT (same format as training)
