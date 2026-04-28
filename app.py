@@ -7,7 +7,7 @@ st.image("https://cdn-icons-png.flaticon.com/512/1041/1041885.png", width=80)
 st.set_page_config(page_title="Laptop Price Predictor", page_icon="💻", layout="centered")
 
 # Load model
-model = joblib.load("model/model.pkl")
+model = joblib.load("model.pkl")
 
 # Title
 st.markdown("<h1 style='text-align: center;'>💻 Laptop Price Predictor</h1>", unsafe_allow_html=True)
